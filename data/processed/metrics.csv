@@ -1,0 +1,6 @@
+task,total_prompts,correct,accuracy
+Arithmetic,100,100,100.0
+Factual QA,100,100,100.0
+Instruction Following,100,96,96.0
+Reasoning,100,100,100.0
+Summarization,100,0,0.0

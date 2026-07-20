@@ -1,0 +1,501 @@
+id,task,variation_id,prompt,ground_truth
+1,Factual QA,1,What is the capital of Germany?,Berlin
+1,Factual QA,2,Can you tell me what is the capital of germany?,Berlin
+1,Factual QA,3,Please answer: What is the capital of Germany?,Berlin
+1,Factual QA,4,I would like to know: What is the capital of Germany?,Berlin
+1,Factual QA,5,Kindly respond to the following question: What is the capital of Germany?,Berlin
+2,Factual QA,1,What is the capital of France?,Paris
+2,Factual QA,2,Can you tell me what is the capital of france?,Paris
+2,Factual QA,3,Please answer: What is the capital of France?,Paris
+2,Factual QA,4,I would like to know: What is the capital of France?,Paris
+2,Factual QA,5,Kindly respond to the following question: What is the capital of France?,Paris
+3,Factual QA,1,What is the largest planet?,Jupiter
+3,Factual QA,2,Can you tell me what is the largest planet?,Jupiter
+3,Factual QA,3,Please answer: What is the largest planet?,Jupiter
+3,Factual QA,4,I would like to know: What is the largest planet?,Jupiter
+3,Factual QA,5,Kindly respond to the following question: What is the largest planet?,Jupiter
+4,Factual QA,1,Who wrote Hamlet?,William Shakespeare
+4,Factual QA,2,Can you tell me who wrote hamlet?,William Shakespeare
+4,Factual QA,3,Please answer: Who wrote Hamlet?,William Shakespeare
+4,Factual QA,4,I would like to know: Who wrote Hamlet?,William Shakespeare
+4,Factual QA,5,Kindly respond to the following question: Who wrote Hamlet?,William Shakespeare
+5,Factual QA,1,What is the boiling point of water in Celsius?,100
+5,Factual QA,2,Can you tell me what is the boiling point of water in celsius?,100
+5,Factual QA,3,Please answer: What is the boiling point of water in Celsius?,100
+5,Factual QA,4,I would like to know: What is the boiling point of water in Celsius?,100
+5,Factual QA,5,Kindly respond to the following question: What is the boiling point of water in Celsius?,100
+6,Factual QA,1,Which ocean is the largest?,Pacific Ocean
+6,Factual QA,2,Can you tell me which ocean is the largest?,Pacific Ocean
+6,Factual QA,3,Please answer: Which ocean is the largest?,Pacific Ocean
+6,Factual QA,4,I would like to know: Which ocean is the largest?,Pacific Ocean
+6,Factual QA,5,Kindly respond to the following question: Which ocean is the largest?,Pacific Ocean
+7,Factual QA,1,What is the currency of Japan?,Yen
+7,Factual QA,2,Can you tell me what is the currency of japan?,Yen
+7,Factual QA,3,Please answer: What is the currency of Japan?,Yen
+7,Factual QA,4,I would like to know: What is the currency of Japan?,Yen
+7,Factual QA,5,Kindly respond to the following question: What is the currency of Japan?,Yen
+8,Factual QA,1,Which gas do plants absorb?,Carbon dioxide
+8,Factual QA,2,Can you tell me which gas do plants absorb?,Carbon dioxide
+8,Factual QA,3,Please answer: Which gas do plants absorb?,Carbon dioxide
+8,Factual QA,4,I would like to know: Which gas do plants absorb?,Carbon dioxide
+8,Factual QA,5,Kindly respond to the following question: Which gas do plants absorb?,Carbon dioxide
+9,Factual QA,1,What is the tallest mountain?,Mount Everest
+9,Factual QA,2,Can you tell me what is the tallest mountain?,Mount Everest
+9,Factual QA,3,Please answer: What is the tallest mountain?,Mount Everest
+9,Factual QA,4,I would like to know: What is the tallest mountain?,Mount Everest
+9,Factual QA,5,Kindly respond to the following question: What is the tallest mountain?,Mount Everest
+10,Factual QA,1,Who painted the Mona Lisa?,Leonardo da Vinci
+10,Factual QA,2,Can you tell me who painted the mona lisa?,Leonardo da Vinci
+10,Factual QA,3,Please answer: Who painted the Mona Lisa?,Leonardo da Vinci
+10,Factual QA,4,I would like to know: Who painted the Mona Lisa?,Leonardo da Vinci
+10,Factual QA,5,Kindly respond to the following question: Who painted the Mona Lisa?,Leonardo da Vinci
+11,Factual QA,1,What is the capital of Italy?,Rome
+11,Factual QA,2,Can you tell me what is the capital of italy?,Rome
+11,Factual QA,3,Please answer: What is the capital of Italy?,Rome
+11,Factual QA,4,I would like to know: What is the capital of Italy?,Rome
+11,Factual QA,5,Kindly respond to the following question: What is the capital of Italy?,Rome
+12,Factual QA,1,What is H2O commonly called?,Water
+12,Factual QA,2,Can you tell me what is h2o commonly called?,Water
+12,Factual QA,3,Please answer: What is H2O commonly called?,Water
+12,Factual QA,4,I would like to know: What is H2O commonly called?,Water
+12,Factual QA,5,Kindly respond to the following question: What is H2O commonly called?,Water
+13,Factual QA,1,Which continent is Egypt in?,Africa
+13,Factual QA,2,Can you tell me which continent is egypt in?,Africa
+13,Factual QA,3,Please answer: Which continent is Egypt in?,Africa
+13,Factual QA,4,I would like to know: Which continent is Egypt in?,Africa
+13,Factual QA,5,Kindly respond to the following question: Which continent is Egypt in?,Africa
+14,Factual QA,1,What is the fastest land animal?,Cheetah
+14,Factual QA,2,Can you tell me what is the fastest land animal?,Cheetah
+14,Factual QA,3,Please answer: What is the fastest land animal?,Cheetah
+14,Factual QA,4,I would like to know: What is the fastest land animal?,Cheetah
+14,Factual QA,5,Kindly respond to the following question: What is the fastest land animal?,Cheetah
+15,Factual QA,1,Who discovered gravity?,Isaac Newton
+15,Factual QA,2,Can you tell me who discovered gravity?,Isaac Newton
+15,Factual QA,3,Please answer: Who discovered gravity?,Isaac Newton
+15,Factual QA,4,I would like to know: Who discovered gravity?,Isaac Newton
+15,Factual QA,5,Kindly respond to the following question: Who discovered gravity?,Isaac Newton
+16,Factual QA,1,What is the square root of 64?,8
+16,Factual QA,2,Can you tell me what is the square root of 64?,8
+16,Factual QA,3,Please answer: What is the square root of 64?,8
+16,Factual QA,4,I would like to know: What is the square root of 64?,8
+16,Factual QA,5,Kindly respond to the following question: What is the square root of 64?,8
+17,Factual QA,1,Which planet is known as the Red Planet?,Mars
+17,Factual QA,2,Can you tell me which planet is known as the red planet?,Mars
+17,Factual QA,3,Please answer: Which planet is known as the Red Planet?,Mars
+17,Factual QA,4,I would like to know: Which planet is known as the Red Planet?,Mars
+17,Factual QA,5,Kindly respond to the following question: Which planet is known as the Red Planet?,Mars
+18,Factual QA,1,What is the largest mammal?,Blue whale
+18,Factual QA,2,Can you tell me what is the largest mammal?,Blue whale
+18,Factual QA,3,Please answer: What is the largest mammal?,Blue whale
+18,Factual QA,4,I would like to know: What is the largest mammal?,Blue whale
+18,Factual QA,5,Kindly respond to the following question: What is the largest mammal?,Blue whale
+19,Factual QA,1,Who invented the telephone?,Alexander Graham Bell
+19,Factual QA,2,Can you tell me who invented the telephone?,Alexander Graham Bell
+19,Factual QA,3,Please answer: Who invented the telephone?,Alexander Graham Bell
+19,Factual QA,4,I would like to know: Who invented the telephone?,Alexander Graham Bell
+19,Factual QA,5,Kindly respond to the following question: Who invented the telephone?,Alexander Graham Bell
+20,Factual QA,1,How many continents are there?,7
+20,Factual QA,2,Can you tell me how many continents are there?,7
+20,Factual QA,3,Please answer: How many continents are there?,7
+20,Factual QA,4,I would like to know: How many continents are there?,7
+20,Factual QA,5,Kindly respond to the following question: How many continents are there?,7
+21,Reasoning,1,"Reasoning question 1: If A is older than B and B is older than C, who is oldest?",A
+21,Reasoning,2,"Can you tell me reasoning question 1: if a is older than b and b is older than c, who is oldest?",A
+21,Reasoning,3,"Please answer: Reasoning question 1: If A is older than B and B is older than C, who is oldest?",A
+21,Reasoning,4,"I would like to know: Reasoning question 1: If A is older than B and B is older than C, who is oldest?",A
+21,Reasoning,5,"Kindly respond to the following question: Reasoning question 1: If A is older than B and B is older than C, who is oldest?",A
+22,Reasoning,1,"Reasoning question 2: If A is older than B and B is older than C, who is oldest?",A
+22,Reasoning,2,"Can you tell me reasoning question 2: if a is older than b and b is older than c, who is oldest?",A
+22,Reasoning,3,"Please answer: Reasoning question 2: If A is older than B and B is older than C, who is oldest?",A
+22,Reasoning,4,"I would like to know: Reasoning question 2: If A is older than B and B is older than C, who is oldest?",A
+22,Reasoning,5,"Kindly respond to the following question: Reasoning question 2: If A is older than B and B is older than C, who is oldest?",A
+23,Reasoning,1,"Reasoning question 3: If A is older than B and B is older than C, who is oldest?",A
+23,Reasoning,2,"Can you tell me reasoning question 3: if a is older than b and b is older than c, who is oldest?",A
+23,Reasoning,3,"Please answer: Reasoning question 3: If A is older than B and B is older than C, who is oldest?",A
+23,Reasoning,4,"I would like to know: Reasoning question 3: If A is older than B and B is older than C, who is oldest?",A
+23,Reasoning,5,"Kindly respond to the following question: Reasoning question 3: If A is older than B and B is older than C, who is oldest?",A
+24,Reasoning,1,"Reasoning question 4: If A is older than B and B is older than C, who is oldest?",A
+24,Reasoning,2,"Can you tell me reasoning question 4: if a is older than b and b is older than c, who is oldest?",A
+24,Reasoning,3,"Please answer: Reasoning question 4: If A is older than B and B is older than C, who is oldest?",A
+24,Reasoning,4,"I would like to know: Reasoning question 4: If A is older than B and B is older than C, who is oldest?",A
+24,Reasoning,5,"Kindly respond to the following question: Reasoning question 4: If A is older than B and B is older than C, who is oldest?",A
+25,Reasoning,1,"Reasoning question 5: If A is older than B and B is older than C, who is oldest?",A
+25,Reasoning,2,"Can you tell me reasoning question 5: if a is older than b and b is older than c, who is oldest?",A
+25,Reasoning,3,"Please answer: Reasoning question 5: If A is older than B and B is older than C, who is oldest?",A
+25,Reasoning,4,"I would like to know: Reasoning question 5: If A is older than B and B is older than C, who is oldest?",A
+25,Reasoning,5,"Kindly respond to the following question: Reasoning question 5: If A is older than B and B is older than C, who is oldest?",A
+26,Reasoning,1,"Reasoning question 6: If A is older than B and B is older than C, who is oldest?",A
+26,Reasoning,2,"Can you tell me reasoning question 6: if a is older than b and b is older than c, who is oldest?",A
+26,Reasoning,3,"Please answer: Reasoning question 6: If A is older than B and B is older than C, who is oldest?",A
+26,Reasoning,4,"I would like to know: Reasoning question 6: If A is older than B and B is older than C, who is oldest?",A
+26,Reasoning,5,"Kindly respond to the following question: Reasoning question 6: If A is older than B and B is older than C, who is oldest?",A
+27,Reasoning,1,"Reasoning question 7: If A is older than B and B is older than C, who is oldest?",A
+27,Reasoning,2,"Can you tell me reasoning question 7: if a is older than b and b is older than c, who is oldest?",A
+27,Reasoning,3,"Please answer: Reasoning question 7: If A is older than B and B is older than C, who is oldest?",A
+27,Reasoning,4,"I would like to know: Reasoning question 7: If A is older than B and B is older than C, who is oldest?",A
+27,Reasoning,5,"Kindly respond to the following question: Reasoning question 7: If A is older than B and B is older than C, who is oldest?",A
+28,Reasoning,1,"Reasoning question 8: If A is older than B and B is older than C, who is oldest?",A
+28,Reasoning,2,"Can you tell me reasoning question 8: if a is older than b and b is older than c, who is oldest?",A
+28,Reasoning,3,"Please answer: Reasoning question 8: If A is older than B and B is older than C, who is oldest?",A
+28,Reasoning,4,"I would like to know: Reasoning question 8: If A is older than B and B is older than C, who is oldest?",A
+28,Reasoning,5,"Kindly respond to the following question: Reasoning question 8: If A is older than B and B is older than C, who is oldest?",A
+29,Reasoning,1,"Reasoning question 9: If A is older than B and B is older than C, who is oldest?",A
+29,Reasoning,2,"Can you tell me reasoning question 9: if a is older than b and b is older than c, who is oldest?",A
+29,Reasoning,3,"Please answer: Reasoning question 9: If A is older than B and B is older than C, who is oldest?",A
+29,Reasoning,4,"I would like to know: Reasoning question 9: If A is older than B and B is older than C, who is oldest?",A
+29,Reasoning,5,"Kindly respond to the following question: Reasoning question 9: If A is older than B and B is older than C, who is oldest?",A
+30,Reasoning,1,"Reasoning question 10: If A is older than B and B is older than C, who is oldest?",A
+30,Reasoning,2,"Can you tell me reasoning question 10: if a is older than b and b is older than c, who is oldest?",A
+30,Reasoning,3,"Please answer: Reasoning question 10: If A is older than B and B is older than C, who is oldest?",A
+30,Reasoning,4,"I would like to know: Reasoning question 10: If A is older than B and B is older than C, who is oldest?",A
+30,Reasoning,5,"Kindly respond to the following question: Reasoning question 10: If A is older than B and B is older than C, who is oldest?",A
+31,Reasoning,1,"Reasoning question 11: If A is older than B and B is older than C, who is oldest?",A
+31,Reasoning,2,"Can you tell me reasoning question 11: if a is older than b and b is older than c, who is oldest?",A
+31,Reasoning,3,"Please answer: Reasoning question 11: If A is older than B and B is older than C, who is oldest?",A
+31,Reasoning,4,"I would like to know: Reasoning question 11: If A is older than B and B is older than C, who is oldest?",A
+31,Reasoning,5,"Kindly respond to the following question: Reasoning question 11: If A is older than B and B is older than C, who is oldest?",A
+32,Reasoning,1,"Reasoning question 12: If A is older than B and B is older than C, who is oldest?",A
+32,Reasoning,2,"Can you tell me reasoning question 12: if a is older than b and b is older than c, who is oldest?",A
+32,Reasoning,3,"Please answer: Reasoning question 12: If A is older than B and B is older than C, who is oldest?",A
+32,Reasoning,4,"I would like to know: Reasoning question 12: If A is older than B and B is older than C, who is oldest?",A
+32,Reasoning,5,"Kindly respond to the following question: Reasoning question 12: If A is older than B and B is older than C, who is oldest?",A
+33,Reasoning,1,"Reasoning question 13: If A is older than B and B is older than C, who is oldest?",A
+33,Reasoning,2,"Can you tell me reasoning question 13: if a is older than b and b is older than c, who is oldest?",A
+33,Reasoning,3,"Please answer: Reasoning question 13: If A is older than B and B is older than C, who is oldest?",A
+33,Reasoning,4,"I would like to know: Reasoning question 13: If A is older than B and B is older than C, who is oldest?",A
+33,Reasoning,5,"Kindly respond to the following question: Reasoning question 13: If A is older than B and B is older than C, who is oldest?",A
+34,Reasoning,1,"Reasoning question 14: If A is older than B and B is older than C, who is oldest?",A
+34,Reasoning,2,"Can you tell me reasoning question 14: if a is older than b and b is older than c, who is oldest?",A
+34,Reasoning,3,"Please answer: Reasoning question 14: If A is older than B and B is older than C, who is oldest?",A
+34,Reasoning,4,"I would like to know: Reasoning question 14: If A is older than B and B is older than C, who is oldest?",A
+34,Reasoning,5,"Kindly respond to the following question: Reasoning question 14: If A is older than B and B is older than C, who is oldest?",A
+35,Reasoning,1,"Reasoning question 15: If A is older than B and B is older than C, who is oldest?",A
+35,Reasoning,2,"Can you tell me reasoning question 15: if a is older than b and b is older than c, who is oldest?",A
+35,Reasoning,3,"Please answer: Reasoning question 15: If A is older than B and B is older than C, who is oldest?",A
+35,Reasoning,4,"I would like to know: Reasoning question 15: If A is older than B and B is older than C, who is oldest?",A
+35,Reasoning,5,"Kindly respond to the following question: Reasoning question 15: If A is older than B and B is older than C, who is oldest?",A
+36,Reasoning,1,"Reasoning question 16: If A is older than B and B is older than C, who is oldest?",A
+36,Reasoning,2,"Can you tell me reasoning question 16: if a is older than b and b is older than c, who is oldest?",A
+36,Reasoning,3,"Please answer: Reasoning question 16: If A is older than B and B is older than C, who is oldest?",A
+36,Reasoning,4,"I would like to know: Reasoning question 16: If A is older than B and B is older than C, who is oldest?",A
+36,Reasoning,5,"Kindly respond to the following question: Reasoning question 16: If A is older than B and B is older than C, who is oldest?",A
+37,Reasoning,1,"Reasoning question 17: If A is older than B and B is older than C, who is oldest?",A
+37,Reasoning,2,"Can you tell me reasoning question 17: if a is older than b and b is older than c, who is oldest?",A
+37,Reasoning,3,"Please answer: Reasoning question 17: If A is older than B and B is older than C, who is oldest?",A
+37,Reasoning,4,"I would like to know: Reasoning question 17: If A is older than B and B is older than C, who is oldest?",A
+37,Reasoning,5,"Kindly respond to the following question: Reasoning question 17: If A is older than B and B is older than C, who is oldest?",A
+38,Reasoning,1,"Reasoning question 18: If A is older than B and B is older than C, who is oldest?",A
+38,Reasoning,2,"Can you tell me reasoning question 18: if a is older than b and b is older than c, who is oldest?",A
+38,Reasoning,3,"Please answer: Reasoning question 18: If A is older than B and B is older than C, who is oldest?",A
+38,Reasoning,4,"I would like to know: Reasoning question 18: If A is older than B and B is older than C, who is oldest?",A
+38,Reasoning,5,"Kindly respond to the following question: Reasoning question 18: If A is older than B and B is older than C, who is oldest?",A
+39,Reasoning,1,"Reasoning question 19: If A is older than B and B is older than C, who is oldest?",A
+39,Reasoning,2,"Can you tell me reasoning question 19: if a is older than b and b is older than c, who is oldest?",A
+39,Reasoning,3,"Please answer: Reasoning question 19: If A is older than B and B is older than C, who is oldest?",A
+39,Reasoning,4,"I would like to know: Reasoning question 19: If A is older than B and B is older than C, who is oldest?",A
+39,Reasoning,5,"Kindly respond to the following question: Reasoning question 19: If A is older than B and B is older than C, who is oldest?",A
+40,Reasoning,1,"Reasoning question 20: If A is older than B and B is older than C, who is oldest?",A
+40,Reasoning,2,"Can you tell me reasoning question 20: if a is older than b and b is older than c, who is oldest?",A
+40,Reasoning,3,"Please answer: Reasoning question 20: If A is older than B and B is older than C, who is oldest?",A
+40,Reasoning,4,"I would like to know: Reasoning question 20: If A is older than B and B is older than C, who is oldest?",A
+40,Reasoning,5,"Kindly respond to the following question: Reasoning question 20: If A is older than B and B is older than C, who is oldest?",A
+41,Arithmetic,1,What is 1+4?,5
+41,Arithmetic,2,Can you tell me what is 1+4?,5
+41,Arithmetic,3,Please answer: What is 1+4?,5
+41,Arithmetic,4,I would like to know: What is 1+4?,5
+41,Arithmetic,5,Kindly respond to the following question: What is 1+4?,5
+42,Arithmetic,1,What is 2+5?,7
+42,Arithmetic,2,Can you tell me what is 2+5?,7
+42,Arithmetic,3,Please answer: What is 2+5?,7
+42,Arithmetic,4,I would like to know: What is 2+5?,7
+42,Arithmetic,5,Kindly respond to the following question: What is 2+5?,7
+43,Arithmetic,1,What is 3+6?,9
+43,Arithmetic,2,Can you tell me what is 3+6?,9
+43,Arithmetic,3,Please answer: What is 3+6?,9
+43,Arithmetic,4,I would like to know: What is 3+6?,9
+43,Arithmetic,5,Kindly respond to the following question: What is 3+6?,9
+44,Arithmetic,1,What is 4+7?,11
+44,Arithmetic,2,Can you tell me what is 4+7?,11
+44,Arithmetic,3,Please answer: What is 4+7?,11
+44,Arithmetic,4,I would like to know: What is 4+7?,11
+44,Arithmetic,5,Kindly respond to the following question: What is 4+7?,11
+45,Arithmetic,1,What is 5+8?,13
+45,Arithmetic,2,Can you tell me what is 5+8?,13
+45,Arithmetic,3,Please answer: What is 5+8?,13
+45,Arithmetic,4,I would like to know: What is 5+8?,13
+45,Arithmetic,5,Kindly respond to the following question: What is 5+8?,13
+46,Arithmetic,1,What is 6+9?,15
+46,Arithmetic,2,Can you tell me what is 6+9?,15
+46,Arithmetic,3,Please answer: What is 6+9?,15
+46,Arithmetic,4,I would like to know: What is 6+9?,15
+46,Arithmetic,5,Kindly respond to the following question: What is 6+9?,15
+47,Arithmetic,1,What is 7+10?,17
+47,Arithmetic,2,Can you tell me what is 7+10?,17
+47,Arithmetic,3,Please answer: What is 7+10?,17
+47,Arithmetic,4,I would like to know: What is 7+10?,17
+47,Arithmetic,5,Kindly respond to the following question: What is 7+10?,17
+48,Arithmetic,1,What is 8+11?,19
+48,Arithmetic,2,Can you tell me what is 8+11?,19
+48,Arithmetic,3,Please answer: What is 8+11?,19
+48,Arithmetic,4,I would like to know: What is 8+11?,19
+48,Arithmetic,5,Kindly respond to the following question: What is 8+11?,19
+49,Arithmetic,1,What is 9+12?,21
+49,Arithmetic,2,Can you tell me what is 9+12?,21
+49,Arithmetic,3,Please answer: What is 9+12?,21
+49,Arithmetic,4,I would like to know: What is 9+12?,21
+49,Arithmetic,5,Kindly respond to the following question: What is 9+12?,21
+50,Arithmetic,1,What is 10+13?,23
+50,Arithmetic,2,Can you tell me what is 10+13?,23
+50,Arithmetic,3,Please answer: What is 10+13?,23
+50,Arithmetic,4,I would like to know: What is 10+13?,23
+50,Arithmetic,5,Kindly respond to the following question: What is 10+13?,23
+51,Arithmetic,1,What is 11+14?,25
+51,Arithmetic,2,Can you tell me what is 11+14?,25
+51,Arithmetic,3,Please answer: What is 11+14?,25
+51,Arithmetic,4,I would like to know: What is 11+14?,25
+51,Arithmetic,5,Kindly respond to the following question: What is 11+14?,25
+52,Arithmetic,1,What is 12+15?,27
+52,Arithmetic,2,Can you tell me what is 12+15?,27
+52,Arithmetic,3,Please answer: What is 12+15?,27
+52,Arithmetic,4,I would like to know: What is 12+15?,27
+52,Arithmetic,5,Kindly respond to the following question: What is 12+15?,27
+53,Arithmetic,1,What is 13+16?,29
+53,Arithmetic,2,Can you tell me what is 13+16?,29
+53,Arithmetic,3,Please answer: What is 13+16?,29
+53,Arithmetic,4,I would like to know: What is 13+16?,29
+53,Arithmetic,5,Kindly respond to the following question: What is 13+16?,29
+54,Arithmetic,1,What is 14+17?,31
+54,Arithmetic,2,Can you tell me what is 14+17?,31
+54,Arithmetic,3,Please answer: What is 14+17?,31
+54,Arithmetic,4,I would like to know: What is 14+17?,31
+54,Arithmetic,5,Kindly respond to the following question: What is 14+17?,31
+55,Arithmetic,1,What is 15+18?,33
+55,Arithmetic,2,Can you tell me what is 15+18?,33
+55,Arithmetic,3,Please answer: What is 15+18?,33
+55,Arithmetic,4,I would like to know: What is 15+18?,33
+55,Arithmetic,5,Kindly respond to the following question: What is 15+18?,33
+56,Arithmetic,1,What is 16+19?,35
+56,Arithmetic,2,Can you tell me what is 16+19?,35
+56,Arithmetic,3,Please answer: What is 16+19?,35
+56,Arithmetic,4,I would like to know: What is 16+19?,35
+56,Arithmetic,5,Kindly respond to the following question: What is 16+19?,35
+57,Arithmetic,1,What is 17+20?,37
+57,Arithmetic,2,Can you tell me what is 17+20?,37
+57,Arithmetic,3,Please answer: What is 17+20?,37
+57,Arithmetic,4,I would like to know: What is 17+20?,37
+57,Arithmetic,5,Kindly respond to the following question: What is 17+20?,37
+58,Arithmetic,1,What is 18+21?,39
+58,Arithmetic,2,Can you tell me what is 18+21?,39
+58,Arithmetic,3,Please answer: What is 18+21?,39
+58,Arithmetic,4,I would like to know: What is 18+21?,39
+58,Arithmetic,5,Kindly respond to the following question: What is 18+21?,39
+59,Arithmetic,1,What is 19+22?,41
+59,Arithmetic,2,Can you tell me what is 19+22?,41
+59,Arithmetic,3,Please answer: What is 19+22?,41
+59,Arithmetic,4,I would like to know: What is 19+22?,41
+59,Arithmetic,5,Kindly respond to the following question: What is 19+22?,41
+60,Arithmetic,1,What is 20+23?,43
+60,Arithmetic,2,Can you tell me what is 20+23?,43
+60,Arithmetic,3,Please answer: What is 20+23?,43
+60,Arithmetic,4,I would like to know: What is 20+23?,43
+60,Arithmetic,5,Kindly respond to the following question: What is 20+23?,43
+61,Summarization,1,Summarize this article #1.,Short summary
+61,Summarization,2,Can you tell me summarize this article #1.,Short summary
+61,Summarization,3,Please answer: Summarize this article #1.,Short summary
+61,Summarization,4,I would like to know: Summarize this article #1.,Short summary
+61,Summarization,5,Kindly respond to the following question: Summarize this article #1.,Short summary
+62,Summarization,1,Summarize this article #2.,Short summary
+62,Summarization,2,Can you tell me summarize this article #2.,Short summary
+62,Summarization,3,Please answer: Summarize this article #2.,Short summary
+62,Summarization,4,I would like to know: Summarize this article #2.,Short summary
+62,Summarization,5,Kindly respond to the following question: Summarize this article #2.,Short summary
+63,Summarization,1,Summarize this article #3.,Short summary
+63,Summarization,2,Can you tell me summarize this article #3.,Short summary
+63,Summarization,3,Please answer: Summarize this article #3.,Short summary
+63,Summarization,4,I would like to know: Summarize this article #3.,Short summary
+63,Summarization,5,Kindly respond to the following question: Summarize this article #3.,Short summary
+64,Summarization,1,Summarize this article #4.,Short summary
+64,Summarization,2,Can you tell me summarize this article #4.,Short summary
+64,Summarization,3,Please answer: Summarize this article #4.,Short summary
+64,Summarization,4,I would like to know: Summarize this article #4.,Short summary
+64,Summarization,5,Kindly respond to the following question: Summarize this article #4.,Short summary
+65,Summarization,1,Summarize this article #5.,Short summary
+65,Summarization,2,Can you tell me summarize this article #5.,Short summary
+65,Summarization,3,Please answer: Summarize this article #5.,Short summary
+65,Summarization,4,I would like to know: Summarize this article #5.,Short summary
+65,Summarization,5,Kindly respond to the following question: Summarize this article #5.,Short summary
+66,Summarization,1,Summarize this article #6.,Short summary
+66,Summarization,2,Can you tell me summarize this article #6.,Short summary
+66,Summarization,3,Please answer: Summarize this article #6.,Short summary
+66,Summarization,4,I would like to know: Summarize this article #6.,Short summary
+66,Summarization,5,Kindly respond to the following question: Summarize this article #6.,Short summary
+67,Summarization,1,Summarize this article #7.,Short summary
+67,Summarization,2,Can you tell me summarize this article #7.,Short summary
+67,Summarization,3,Please answer: Summarize this article #7.,Short summary
+67,Summarization,4,I would like to know: Summarize this article #7.,Short summary
+67,Summarization,5,Kindly respond to the following question: Summarize this article #7.,Short summary
+68,Summarization,1,Summarize this article #8.,Short summary
+68,Summarization,2,Can you tell me summarize this article #8.,Short summary
+68,Summarization,3,Please answer: Summarize this article #8.,Short summary
+68,Summarization,4,I would like to know: Summarize this article #8.,Short summary
+68,Summarization,5,Kindly respond to the following question: Summarize this article #8.,Short summary
+69,Summarization,1,Summarize this article #9.,Short summary
+69,Summarization,2,Can you tell me summarize this article #9.,Short summary
+69,Summarization,3,Please answer: Summarize this article #9.,Short summary
+69,Summarization,4,I would like to know: Summarize this article #9.,Short summary
+69,Summarization,5,Kindly respond to the following question: Summarize this article #9.,Short summary
+70,Summarization,1,Summarize this article #10.,Short summary
+70,Summarization,2,Can you tell me summarize this article #10.,Short summary
+70,Summarization,3,Please answer: Summarize this article #10.,Short summary
+70,Summarization,4,I would like to know: Summarize this article #10.,Short summary
+70,Summarization,5,Kindly respond to the following question: Summarize this article #10.,Short summary
+71,Summarization,1,Summarize this article #11.,Short summary
+71,Summarization,2,Can you tell me summarize this article #11.,Short summary
+71,Summarization,3,Please answer: Summarize this article #11.,Short summary
+71,Summarization,4,I would like to know: Summarize this article #11.,Short summary
+71,Summarization,5,Kindly respond to the following question: Summarize this article #11.,Short summary
+72,Summarization,1,Summarize this article #12.,Short summary
+72,Summarization,2,Can you tell me summarize this article #12.,Short summary
+72,Summarization,3,Please answer: Summarize this article #12.,Short summary
+72,Summarization,4,I would like to know: Summarize this article #12.,Short summary
+72,Summarization,5,Kindly respond to the following question: Summarize this article #12.,Short summary
+73,Summarization,1,Summarize this article #13.,Short summary
+73,Summarization,2,Can you tell me summarize this article #13.,Short summary
+73,Summarization,3,Please answer: Summarize this article #13.,Short summary
+73,Summarization,4,I would like to know: Summarize this article #13.,Short summary
+73,Summarization,5,Kindly respond to the following question: Summarize this article #13.,Short summary
+74,Summarization,1,Summarize this article #14.,Short summary
+74,Summarization,2,Can you tell me summarize this article #14.,Short summary
+74,Summarization,3,Please answer: Summarize this article #14.,Short summary
+74,Summarization,4,I would like to know: Summarize this article #14.,Short summary
+74,Summarization,5,Kindly respond to the following question: Summarize this article #14.,Short summary
+75,Summarization,1,Summarize this article #15.,Short summary
+75,Summarization,2,Can you tell me summarize this article #15.,Short summary
+75,Summarization,3,Please answer: Summarize this article #15.,Short summary
+75,Summarization,4,I would like to know: Summarize this article #15.,Short summary
+75,Summarization,5,Kindly respond to the following question: Summarize this article #15.,Short summary
+76,Summarization,1,Summarize this article #16.,Short summary
+76,Summarization,2,Can you tell me summarize this article #16.,Short summary
+76,Summarization,3,Please answer: Summarize this article #16.,Short summary
+76,Summarization,4,I would like to know: Summarize this article #16.,Short summary
+76,Summarization,5,Kindly respond to the following question: Summarize this article #16.,Short summary
+77,Summarization,1,Summarize this article #17.,Short summary
+77,Summarization,2,Can you tell me summarize this article #17.,Short summary
+77,Summarization,3,Please answer: Summarize this article #17.,Short summary
+77,Summarization,4,I would like to know: Summarize this article #17.,Short summary
+77,Summarization,5,Kindly respond to the following question: Summarize this article #17.,Short summary
+78,Summarization,1,Summarize this article #18.,Short summary
+78,Summarization,2,Can you tell me summarize this article #18.,Short summary
+78,Summarization,3,Please answer: Summarize this article #18.,Short summary
+78,Summarization,4,I would like to know: Summarize this article #18.,Short summary
+78,Summarization,5,Kindly respond to the following question: Summarize this article #18.,Short summary
+79,Summarization,1,Summarize this article #19.,Short summary
+79,Summarization,2,Can you tell me summarize this article #19.,Short summary
+79,Summarization,3,Please answer: Summarize this article #19.,Short summary
+79,Summarization,4,I would like to know: Summarize this article #19.,Short summary
+79,Summarization,5,Kindly respond to the following question: Summarize this article #19.,Short summary
+80,Summarization,1,Summarize this article #20.,Short summary
+80,Summarization,2,Can you tell me summarize this article #20.,Short summary
+80,Summarization,3,Please answer: Summarize this article #20.,Short summary
+80,Summarization,4,I would like to know: Summarize this article #20.,Short summary
+80,Summarization,5,Kindly respond to the following question: Summarize this article #20.,Short summary
+81,Instruction Following,1,Translate 'Good morning' into German. Example #1,Guten Morgen
+81,Instruction Following,2,Can you tell me translate 'good morning' into german. example #1,Guten Morgen
+81,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #1,Guten Morgen
+81,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #1,Guten Morgen
+81,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #1,Guten Morgen
+82,Instruction Following,1,Translate 'Good morning' into German. Example #2,Guten Morgen
+82,Instruction Following,2,Can you tell me translate 'good morning' into german. example #2,Guten Morgen
+82,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #2,Guten Morgen
+82,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #2,Guten Morgen
+82,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #2,Guten Morgen
+83,Instruction Following,1,Translate 'Good morning' into German. Example #3,Guten Morgen
+83,Instruction Following,2,Can you tell me translate 'good morning' into german. example #3,Guten Morgen
+83,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #3,Guten Morgen
+83,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #3,Guten Morgen
+83,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #3,Guten Morgen
+84,Instruction Following,1,Translate 'Good morning' into German. Example #4,Guten Morgen
+84,Instruction Following,2,Can you tell me translate 'good morning' into german. example #4,Guten Morgen
+84,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #4,Guten Morgen
+84,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #4,Guten Morgen
+84,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #4,Guten Morgen
+85,Instruction Following,1,Translate 'Good morning' into German. Example #5,Guten Morgen
+85,Instruction Following,2,Can you tell me translate 'good morning' into german. example #5,Guten Morgen
+85,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #5,Guten Morgen
+85,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #5,Guten Morgen
+85,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #5,Guten Morgen
+86,Instruction Following,1,Translate 'Good morning' into German. Example #6,Guten Morgen
+86,Instruction Following,2,Can you tell me translate 'good morning' into german. example #6,Guten Morgen
+86,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #6,Guten Morgen
+86,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #6,Guten Morgen
+86,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #6,Guten Morgen
+87,Instruction Following,1,Translate 'Good morning' into German. Example #7,Guten Morgen
+87,Instruction Following,2,Can you tell me translate 'good morning' into german. example #7,Guten Morgen
+87,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #7,Guten Morgen
+87,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #7,Guten Morgen
+87,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #7,Guten Morgen
+88,Instruction Following,1,Translate 'Good morning' into German. Example #8,Guten Morgen
+88,Instruction Following,2,Can you tell me translate 'good morning' into german. example #8,Guten Morgen
+88,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #8,Guten Morgen
+88,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #8,Guten Morgen
+88,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #8,Guten Morgen
+89,Instruction Following,1,Translate 'Good morning' into German. Example #9,Guten Morgen
+89,Instruction Following,2,Can you tell me translate 'good morning' into german. example #9,Guten Morgen
+89,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #9,Guten Morgen
+89,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #9,Guten Morgen
+89,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #9,Guten Morgen
+90,Instruction Following,1,Translate 'Good morning' into German. Example #10,Guten Morgen
+90,Instruction Following,2,Can you tell me translate 'good morning' into german. example #10,Guten Morgen
+90,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #10,Guten Morgen
+90,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #10,Guten Morgen
+90,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #10,Guten Morgen
+91,Instruction Following,1,Translate 'Good morning' into German. Example #11,Guten Morgen
+91,Instruction Following,2,Can you tell me translate 'good morning' into german. example #11,Guten Morgen
+91,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #11,Guten Morgen
+91,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #11,Guten Morgen
+91,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #11,Guten Morgen
+92,Instruction Following,1,Translate 'Good morning' into German. Example #12,Guten Morgen
+92,Instruction Following,2,Can you tell me translate 'good morning' into german. example #12,Guten Morgen
+92,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #12,Guten Morgen
+92,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #12,Guten Morgen
+92,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #12,Guten Morgen
+93,Instruction Following,1,Translate 'Good morning' into German. Example #13,Guten Morgen
+93,Instruction Following,2,Can you tell me translate 'good morning' into german. example #13,Guten Morgen
+93,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #13,Guten Morgen
+93,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #13,Guten Morgen
+93,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #13,Guten Morgen
+94,Instruction Following,1,Translate 'Good morning' into German. Example #14,Guten Morgen
+94,Instruction Following,2,Can you tell me translate 'good morning' into german. example #14,Guten Morgen
+94,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #14,Guten Morgen
+94,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #14,Guten Morgen
+94,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #14,Guten Morgen
+95,Instruction Following,1,Translate 'Good morning' into German. Example #15,Guten Morgen
+95,Instruction Following,2,Can you tell me translate 'good morning' into german. example #15,Guten Morgen
+95,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #15,Guten Morgen
+95,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #15,Guten Morgen
+95,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #15,Guten Morgen
+96,Instruction Following,1,Translate 'Good morning' into German. Example #16,Guten Morgen
+96,Instruction Following,2,Can you tell me translate 'good morning' into german. example #16,Guten Morgen
+96,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #16,Guten Morgen
+96,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #16,Guten Morgen
+96,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #16,Guten Morgen
+97,Instruction Following,1,Translate 'Good morning' into German. Example #17,Guten Morgen
+97,Instruction Following,2,Can you tell me translate 'good morning' into german. example #17,Guten Morgen
+97,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #17,Guten Morgen
+97,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #17,Guten Morgen
+97,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #17,Guten Morgen
+98,Instruction Following,1,Translate 'Good morning' into German. Example #18,Guten Morgen
+98,Instruction Following,2,Can you tell me translate 'good morning' into german. example #18,Guten Morgen
+98,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #18,Guten Morgen
+98,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #18,Guten Morgen
+98,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #18,Guten Morgen
+99,Instruction Following,1,Translate 'Good morning' into German. Example #19,Guten Morgen
+99,Instruction Following,2,Can you tell me translate 'good morning' into german. example #19,Guten Morgen
+99,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #19,Guten Morgen
+99,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #19,Guten Morgen
+99,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #19,Guten Morgen
+100,Instruction Following,1,Translate 'Good morning' into German. Example #20,Guten Morgen
+100,Instruction Following,2,Can you tell me translate 'good morning' into german. example #20,Guten Morgen
+100,Instruction Following,3,Please answer: Translate 'Good morning' into German. Example #20,Guten Morgen
+100,Instruction Following,4,I would like to know: Translate 'Good morning' into German. Example #20,Guten Morgen
+100,Instruction Following,5,Kindly respond to the following question: Translate 'Good morning' into German. Example #20,Guten Morgen

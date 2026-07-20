@@ -80,9 +80,9 @@ mlruns/
 # ----------------------------
 # Outputs (Generated Files)
 # ----------------------------
-outputs/
-data/raw/
-data/processed/
+#outputs/
+#data/raw/
+#data/processed/
 
 # Keep folder structure
 !outputs/.gitkeep
@@ -125,8 +125,8 @@ wandb/
 outputs/
 
 # Data
-data/raw/
-data/processed/
+#data/raw/
+#data/processed/
 
 # Large model files
 *.pt
