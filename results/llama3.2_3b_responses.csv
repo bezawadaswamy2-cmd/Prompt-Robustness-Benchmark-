@@ -2,5 +2,3 @@ model,id,task,variation_id,prompt,ground_truth,response
 llama3.2:3b,1,Factual QA,1,What is the capital of Germany?,Berlin,The capital of Germany is Berlin.
 llama3.2:3b,1,Factual QA,2,Can you tell me what is the capital of germany?,Berlin,The capital of Germany is Berlin.
 llama3.2:3b,1,Factual QA,3,Please answer: What is the capital of Germany?,Berlin,The capital of Germany is Berlin.
-llama3.2:3b,1,Factual QA,4,I would like to know: What is the capital of Germany?,Berlin,The capital of Germany is Berlin.
-llama3.2:3b,1,Factual QA,5,Kindly respond to the following question: What is the capital of Germany?,Berlin,The capital of Germany is Berlin.

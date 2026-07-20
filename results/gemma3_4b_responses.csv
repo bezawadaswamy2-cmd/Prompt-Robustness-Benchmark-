@@ -1,0 +1,14 @@
+model,id,task,variation_id,prompt,ground_truth,response
+gemma3:4b,1,Factual QA,1,What is the capital of Germany?,Berlin,"The capital of Germany is **Berlin**. 
+
+It's a hugely important city historically, culturally, and politically! 😊 
+
+Do you want to know anything more about Berlin or Germany in general?"
+gemma3:4b,1,Factual QA,2,Can you tell me what is the capital of germany?,Berlin,"The capital of Germany is **Berlin**. 
+
+It's a fascinating city with a rich history and vibrant culture! 😊 
+
+Do you want to know anything more about Berlin or Germany in general?"
+gemma3:4b,1,Factual QA,3,Please answer: What is the capital of Germany?,Berlin,"The capital of Germany is **Berlin**. 
+
+Do you want to know anything more about Berlin or Germany in general?"

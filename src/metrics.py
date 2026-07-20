@@ -1,57 +1,55 @@
 import pandas as pd
-from pathlib import Path
+
+from src.config import RESULTS_DIR
 
 
-def exact_match(response, ground_truth):
-    """
-    Case-insensitive exact match.
-    """
+def calculate_metrics():
 
-    response = str(response).strip().lower()
-    ground_truth = str(ground_truth).strip().lower()
+    benchmark_file = RESULTS_DIR / "benchmark_results.csv"
 
-    return int(ground_truth in response)
+    df = pd.read_csv(benchmark_file)
 
+    results = []
 
-def main():
+    models = df["model"].unique()
 
-    input_file = Path("/Users/sribalaayyappaswamybezawada/Visual Studio Code/Prompt-Robustness-Benchmark/data/processed/responses.csv")
-    output_file = Path("/Users/sribalaayyappaswamybezawada/Visual Studio Code/Prompt-Robustness-Benchmark/data/processed/metrics.csv")
+    for model in models:
 
-    df = pd.read_csv(input_file)
+        model_df = df[df["model"] == model]
 
-    df["exact_match"] = df.apply(
-        lambda row: exact_match(row["response"], row["ground_truth"]),
-        axis=1
-    )
+        tasks = model_df["task"].unique()
 
-    metrics = (
-        df.groupby("task")
-        .agg(
-            total_prompts=("id", "count"),
-            correct=("exact_match", "sum"),
-            accuracy=("exact_match", "mean")
-        )
-        .reset_index()
-    )
+        for task in tasks:
 
-    metrics["accuracy"] = metrics["accuracy"] * 100
+            task_df = model_df[model_df["task"] == task]
 
-    metrics.to_csv(output_file, index=False)
+            correct = 0
 
-    print("=" * 60)
-    print("BENCHMARK RESULTS")
-    print("=" * 60)
+        for _, row in task_df.iterrows():
+            response = str(row["response"]).strip().lower()
+            ground_truth = str(row["ground_truth"]).strip().lower()
 
-    print(metrics)
+            if ground_truth in response:
+                correct += 1
 
-    overall_accuracy = df["exact_match"].mean() * 100
+            total = len(task_df)
 
-    print("\nOverall Accuracy: {:.2f}%".format(overall_accuracy))
+            accuracy = (correct / total) * 100 if total > 0 else 0
 
-    print("\nMetrics saved to:")
-    print(output_file)
+        results.append({
+                "model": model,
+                "task": task,
+                "correct": correct,
+                "total": total,
+                "accuracy": round(accuracy, 2)
+            })
 
+    metrics_df = pd.DataFrame(results)
 
-if __name__ == "__main__":
-    main()
+    output_file = RESULTS_DIR / "metrics.csv"
+
+    metrics_df.to_csv(output_file, index=False)
+
+    print(metrics_df)
+
+    return metrics_df

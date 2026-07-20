@@ -1,0 +1,4 @@
+model,id,task,variation_id,prompt,ground_truth,response
+mistral:7b,1,Factual QA,1,What is the capital of Germany?,Berlin," The capital of Germany is Berlin. Berlin is one of the sixteen states of Germany and serves as its seat of government. It's also one of the country's largest urban areas, with a population of over 3.7 million people."
+mistral:7b,1,Factual QA,2,Can you tell me what is the capital of germany?,Berlin, The capital city of Germany is Berlin.
+mistral:7b,1,Factual QA,3,Please answer: What is the capital of Germany?,Berlin, The capital of Germany is Berlin.
