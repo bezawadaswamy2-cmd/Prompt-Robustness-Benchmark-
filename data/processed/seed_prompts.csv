@@ -1,0 +1,101 @@
+id,task,prompt,ground_truth
+1,Factual QA,What is the capital of Germany?,Berlin
+2,Factual QA,What is the capital of France?,Paris
+3,Factual QA,What is the largest planet?,Jupiter
+4,Factual QA,Who wrote Hamlet?,William Shakespeare
+5,Factual QA,What is the boiling point of water in Celsius?,100
+6,Factual QA,Which ocean is the largest?,Pacific Ocean
+7,Factual QA,What is the currency of Japan?,Yen
+8,Factual QA,Which gas do plants absorb?,Carbon dioxide
+9,Factual QA,What is the tallest mountain?,Mount Everest
+10,Factual QA,Who painted the Mona Lisa?,Leonardo da Vinci
+11,Factual QA,What is the capital of Italy?,Rome
+12,Factual QA,What is H2O commonly called?,Water
+13,Factual QA,Which continent is Egypt in?,Africa
+14,Factual QA,What is the fastest land animal?,Cheetah
+15,Factual QA,Who discovered gravity?,Isaac Newton
+16,Factual QA,What is the square root of 64?,8
+17,Factual QA,Which planet is known as the Red Planet?,Mars
+18,Factual QA,What is the largest mammal?,Blue whale
+19,Factual QA,Who invented the telephone?,Alexander Graham Bell
+20,Factual QA,How many continents are there?,7
+21,Reasoning,"Reasoning question 1: If A is older than B and B is older than C, who is oldest?",A
+22,Reasoning,"Reasoning question 2: If A is older than B and B is older than C, who is oldest?",A
+23,Reasoning,"Reasoning question 3: If A is older than B and B is older than C, who is oldest?",A
+24,Reasoning,"Reasoning question 4: If A is older than B and B is older than C, who is oldest?",A
+25,Reasoning,"Reasoning question 5: If A is older than B and B is older than C, who is oldest?",A
+26,Reasoning,"Reasoning question 6: If A is older than B and B is older than C, who is oldest?",A
+27,Reasoning,"Reasoning question 7: If A is older than B and B is older than C, who is oldest?",A
+28,Reasoning,"Reasoning question 8: If A is older than B and B is older than C, who is oldest?",A
+29,Reasoning,"Reasoning question 9: If A is older than B and B is older than C, who is oldest?",A
+30,Reasoning,"Reasoning question 10: If A is older than B and B is older than C, who is oldest?",A
+31,Reasoning,"Reasoning question 11: If A is older than B and B is older than C, who is oldest?",A
+32,Reasoning,"Reasoning question 12: If A is older than B and B is older than C, who is oldest?",A
+33,Reasoning,"Reasoning question 13: If A is older than B and B is older than C, who is oldest?",A
+34,Reasoning,"Reasoning question 14: If A is older than B and B is older than C, who is oldest?",A
+35,Reasoning,"Reasoning question 15: If A is older than B and B is older than C, who is oldest?",A
+36,Reasoning,"Reasoning question 16: If A is older than B and B is older than C, who is oldest?",A
+37,Reasoning,"Reasoning question 17: If A is older than B and B is older than C, who is oldest?",A
+38,Reasoning,"Reasoning question 18: If A is older than B and B is older than C, who is oldest?",A
+39,Reasoning,"Reasoning question 19: If A is older than B and B is older than C, who is oldest?",A
+40,Reasoning,"Reasoning question 20: If A is older than B and B is older than C, who is oldest?",A
+41,Arithmetic,What is 1+4?,5
+42,Arithmetic,What is 2+5?,7
+43,Arithmetic,What is 3+6?,9
+44,Arithmetic,What is 4+7?,11
+45,Arithmetic,What is 5+8?,13
+46,Arithmetic,What is 6+9?,15
+47,Arithmetic,What is 7+10?,17
+48,Arithmetic,What is 8+11?,19
+49,Arithmetic,What is 9+12?,21
+50,Arithmetic,What is 10+13?,23
+51,Arithmetic,What is 11+14?,25
+52,Arithmetic,What is 12+15?,27
+53,Arithmetic,What is 13+16?,29
+54,Arithmetic,What is 14+17?,31
+55,Arithmetic,What is 15+18?,33
+56,Arithmetic,What is 16+19?,35
+57,Arithmetic,What is 17+20?,37
+58,Arithmetic,What is 18+21?,39
+59,Arithmetic,What is 19+22?,41
+60,Arithmetic,What is 20+23?,43
+61,Summarization,Summarize this article #1.,Short summary
+62,Summarization,Summarize this article #2.,Short summary
+63,Summarization,Summarize this article #3.,Short summary
+64,Summarization,Summarize this article #4.,Short summary
+65,Summarization,Summarize this article #5.,Short summary
+66,Summarization,Summarize this article #6.,Short summary
+67,Summarization,Summarize this article #7.,Short summary
+68,Summarization,Summarize this article #8.,Short summary
+69,Summarization,Summarize this article #9.,Short summary
+70,Summarization,Summarize this article #10.,Short summary
+71,Summarization,Summarize this article #11.,Short summary
+72,Summarization,Summarize this article #12.,Short summary
+73,Summarization,Summarize this article #13.,Short summary
+74,Summarization,Summarize this article #14.,Short summary
+75,Summarization,Summarize this article #15.,Short summary
+76,Summarization,Summarize this article #16.,Short summary
+77,Summarization,Summarize this article #17.,Short summary
+78,Summarization,Summarize this article #18.,Short summary
+79,Summarization,Summarize this article #19.,Short summary
+80,Summarization,Summarize this article #20.,Short summary
+81,Instruction Following,Translate 'Good morning' into German. Example #1,Guten Morgen
+82,Instruction Following,Translate 'Good morning' into German. Example #2,Guten Morgen
+83,Instruction Following,Translate 'Good morning' into German. Example #3,Guten Morgen
+84,Instruction Following,Translate 'Good morning' into German. Example #4,Guten Morgen
+85,Instruction Following,Translate 'Good morning' into German. Example #5,Guten Morgen
+86,Instruction Following,Translate 'Good morning' into German. Example #6,Guten Morgen
+87,Instruction Following,Translate 'Good morning' into German. Example #7,Guten Morgen
+88,Instruction Following,Translate 'Good morning' into German. Example #8,Guten Morgen
+89,Instruction Following,Translate 'Good morning' into German. Example #9,Guten Morgen
+90,Instruction Following,Translate 'Good morning' into German. Example #10,Guten Morgen
+91,Instruction Following,Translate 'Good morning' into German. Example #11,Guten Morgen
+92,Instruction Following,Translate 'Good morning' into German. Example #12,Guten Morgen
+93,Instruction Following,Translate 'Good morning' into German. Example #13,Guten Morgen
+94,Instruction Following,Translate 'Good morning' into German. Example #14,Guten Morgen
+95,Instruction Following,Translate 'Good morning' into German. Example #15,Guten Morgen
+96,Instruction Following,Translate 'Good morning' into German. Example #16,Guten Morgen
+97,Instruction Following,Translate 'Good morning' into German. Example #17,Guten Morgen
+98,Instruction Following,Translate 'Good morning' into German. Example #18,Guten Morgen
+99,Instruction Following,Translate 'Good morning' into German. Example #19,Guten Morgen
+100,Instruction Following,Translate 'Good morning' into German. Example #20,Guten Morgen
