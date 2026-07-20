@@ -1,0 +1,139 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ----------------------------
+# Virtual Environment
+# ----------------------------
+venv/
+.venv/
+env/
+ENV/
+
+# ----------------------------
+# Environment Variables
+# ----------------------------
+.env
+
+# ----------------------------
+# IDE
+# ----------------------------
+.vscode/
+.idea/
+
+# ----------------------------
+# macOS
+# ----------------------------
+.DS_Store
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Python Packaging
+# ----------------------------
+build/
+dist/
+*.egg-info/
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+
+# ----------------------------
+# Cache
+# ----------------------------
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# ----------------------------
+# Model Files
+# ----------------------------
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+
+# ----------------------------
+# Hugging Face Cache
+# ----------------------------
+.huggingface/
+.cache/huggingface/
+
+# ----------------------------
+# Experiment Tracking
+# ----------------------------
+wandb/
+mlruns/
+
+# ----------------------------
+# Outputs (Generated Files)
+# ----------------------------
+outputs/
+data/raw/
+data/processed/
+
+# Keep folder structure
+!outputs/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Environment
+.env
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python caches
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Hugging Face
+.cache/
+.huggingface/
+
+# Experiment tracking
+wandb/
+
+# Generated outputs
+outputs/
+
+# Data
+data/raw/
+data/processed/
+
+# Large model files
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.onnx
+
+# Logs
+*.log
