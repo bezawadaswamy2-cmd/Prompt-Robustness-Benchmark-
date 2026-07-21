@@ -1,4 +1,7 @@
 import streamlit as st
+from src.benchmark import run_benchmark
+from src.metrics import calculate_metrics
+from src.visualization import create_accuracy_chart
 
 st.set_page_config(
     page_title="Prompt Robustness Benchmark",
@@ -51,8 +54,31 @@ with tab2:
     st.divider()
 
     if st.button("🚀 Run Benchmark"):
-        st.success("Benchmark execution will be connected in the next step.")
 
+        selected_models = []
+
+        if llama:
+            selected_models.append("llama3.2:3b")
+
+        if mistral:
+            selected_models.append("mistral:7b")
+
+        if gemma:
+            selected_models.append("gemma3:4b")
+
+        if not selected_models:
+            st.error("Please select at least one model.")
+        else:
+
+            with st.spinner("Running benchmark..."):
+
+                run_benchmark(models=selected_models)
+
+                calculate_metrics()
+
+                create_accuracy_chart()
+
+            st.success("Benchmark completed successfully!")
 with tab3:
 
     st.header("Results")

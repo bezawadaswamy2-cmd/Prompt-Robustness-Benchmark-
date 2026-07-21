@@ -1,4 +1,4 @@
 model,task,correct,total,accuracy
-llama3.2:3b,Factual QA,3,3,100.0
-mistral:7b,Factual QA,3,3,100.0
-gemma3:4b,Factual QA,3,3,100.0
+llama3.2:3b,Instruction Following,100,100,100.0
+mistral:7b,Instruction Following,95,100,95.0
+gemma3:4b,Instruction Following,100,100,100.0
