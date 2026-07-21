@@ -19,6 +19,7 @@ def calculate_metrics():
     df = pd.read_csv(benchmark_file)
 
     results = []
+    robustness_results = []
 
     # Loop through each model
     for model in df["model"].unique():
@@ -69,7 +70,46 @@ def calculate_metrics():
                 "avg_response_time": average_response_time
             })
 
+            # Robustness Score
+
+            robustness_scores = []
+
+            for question_id in task_df["id"].unique():
+
+                question_df = task_df[task_df["id"] == question_id]
+
+                correct_count = 0
+
+                for _, qrow in question_df.iterrows():
+
+                    response = str(qrow["response"]).strip().lower()
+                    ground_truth = str(qrow["ground_truth"]).strip().lower()
+
+                    if ground_truth in response:
+                        correct_count += 1
+
+                robustness = (correct_count / len(question_df)) * 100
+
+                robustness_scores.append(robustness)
+
+            average_robustness = round(
+                sum(robustness_scores) / len(robustness_scores), 2
+            )
+
+            robustness_results.append({
+                "model": model,
+                "task": task,
+                "robustness_score": average_robustness
+            })
+
     metrics_df = pd.DataFrame(results)
+
+    robustness_df = pd.DataFrame(robustness_results)
+
+    metrics_df = metrics_df.merge(
+        robustness_df,
+        on=["model", "task"]
+    )
 
     output_file = RESULTS_DIR / "metrics.csv"
     metrics_df.to_csv(output_file, index=False)
