@@ -25,11 +25,15 @@ def run_benchmark(models=None, limit=None):
         all_results.append(df)
 
     final_df = pd.concat(all_results, ignore_index=True)
+    print("\nFinal DataFrame columns:")
+    print(final_df.columns.tolist())
 
+    print(final_df.head())
     RESULTS_DIR.mkdir(exist_ok=True)
 
     output_file = RESULTS_DIR / "benchmark_results.csv"
-
+    print("\nFinal DataFrame columns:")
+    print(final_df.columns.tolist())
     final_df.to_csv(output_file, index=False)
 
     print(f"\nBenchmark results saved to:\n{output_file}")

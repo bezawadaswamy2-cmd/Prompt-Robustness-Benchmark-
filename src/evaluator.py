@@ -44,7 +44,7 @@ def evaluate_model(model_name, limit=None):
 
         print(f"[{index+1}/{len(df)}]")
 
-        answer = query_model(model_name, row["prompt"])
+        answer, response_time = query_model(model_name, row["prompt"])
 
         responses.append({
             "model": model_name,
@@ -53,10 +53,17 @@ def evaluate_model(model_name, limit=None):
             "variation_id": row["variation_id"],
             "prompt": row["prompt"],
             "ground_truth": row["ground_truth"],
-            "response": answer
+            "response": answer,
+            "response_time": response_time
         })
+    print("\nResponse dictionary:")
+    print(responses[0])
 
     result = pd.DataFrame(responses)
+    print("\nDataFrame columns:")
+    print(result.columns.tolist())
+
+    print(result.head())
 
     RESULTS_DIR.mkdir(exist_ok=True)
 

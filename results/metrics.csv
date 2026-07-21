@@ -1,4 +1,4 @@
-model,task,correct,total,accuracy
-llama3.2:3b,Instruction Following,100,100,100.0
-mistral:7b,Instruction Following,95,100,95.0
-gemma3:4b,Instruction Following,100,100,100.0
+model,task,correct,total,accuracy,avg_response_length,avg_response_time,robustness_score,consistency_score,overall_score
+llama3.2:3b,Factual QA,10,10,100.0,6.0,0.572,100.0,100.0,99.014
+mistral:7b,Factual QA,10,10,100.0,31.2,2.706,100.0,40.0,86.087
+gemma3:4b,Factual QA,10,10,100.0,18.6,1.492,100.0,30.0,85.184

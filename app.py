@@ -1,7 +1,11 @@
 import streamlit as st
+import pandas as pd
+
 from src.benchmark import run_benchmark
 from src.metrics import calculate_metrics
-from src.visualization import create_accuracy_chart
+from src.visualization import create_all_charts
+from src.config import RESULTS_DIR
+
 
 st.set_page_config(
     page_title="Prompt Robustness Benchmark",
@@ -10,11 +14,11 @@ st.set_page_config(
 )
 
 st.title("🤖 Prompt Robustness Benchmarking for Large Language Models")
-st.markdown(
-    """
-    Compare the robustness of multiple open-source LLMs against prompt perturbations.
-    """
-)
+
+st.markdown("""
+Compare the robustness of multiple open-source Large Language Models
+against prompt perturbations.
+""")
 
 tab1, tab2, tab3, tab4 = st.tabs([
     "🏠 Home",
@@ -23,23 +27,32 @@ tab1, tab2, tab3, tab4 = st.tabs([
     "ℹ️ About"
 ])
 
+
+# HOME
+
 with tab1:
+
     st.header("Welcome")
 
     st.write("""
-    This application benchmarks multiple Large Language Models using
-    prompt perturbations.
+This application benchmarks multiple Large Language Models using
+prompt perturbations.
 
-    Supported Models:
-    - Llama 3.2
-    - Mistral
-    - Gemma
+### Supported Models
+- Llama 3.2
+- Mistral
+- Gemma
 
-    Workflow:
-    1. Generate perturbations
-    2. Run benchmark
-    3. Compare results
-    """)
+### Workflow
+1. Generate prompt perturbations
+2. Run benchmark
+3. Calculate metrics
+4. Compare model robustness
+5. Visualize results
+""")
+
+
+# BENCHMARK
 
 with tab2:
 
@@ -67,30 +80,34 @@ with tab2:
             selected_models.append("gemma3:4b")
 
         if not selected_models:
+
             st.error("Please select at least one model.")
+
         else:
 
             with st.spinner("Running benchmark..."):
 
-                run_benchmark(models=selected_models)
+                run_benchmark(models=selected_models, limit=10)
 
                 calculate_metrics()
 
-                create_accuracy_chart()
+                create_all_charts()
 
-            st.success("Benchmark completed successfully!")
+            st.success("✅ Benchmark completed successfully!")
+
+
+# RESULTS
+
 with tab3:
 
-    st.header("📊 Results")
-
-    import pandas as pd
-    from src.config import RESULTS_DIR
+    st.header("📊 Benchmark Results")
 
     benchmark_file = RESULTS_DIR / "benchmark_results.csv"
     metrics_file = RESULTS_DIR / "metrics.csv"
-    chart_file = RESULTS_DIR / "accuracy_chart.png"
+    charts_dir = RESULTS_DIR / "charts"
 
     # Benchmark Summary
+
     if benchmark_file.exists():
 
         benchmark_df = pd.read_csv(benchmark_file)
@@ -99,36 +116,88 @@ with tab3:
 
         col1, col2, col3 = st.columns(3)
 
-        col1.metric("Models Tested", benchmark_df["model"].nunique())
-        col2.metric("Responses", len(benchmark_df))
-        col3.metric("Tasks", benchmark_df["task"].nunique())
+        col1.metric(
+            "Models Tested",
+            benchmark_df["model"].nunique()
+        )
+
+        col2.metric(
+            "Responses",
+            len(benchmark_df)
+        )
+
+        col3.metric(
+            "Tasks",
+            benchmark_df["task"].nunique()
+        )
 
         st.divider()
 
-    # Metrics Table
+    # Metrics
+
     if metrics_file.exists():
 
         metrics_df = pd.read_csv(metrics_file)
 
         st.subheader("Metrics")
-        st.dataframe(metrics_df, use_container_width=True)
+
+        st.dataframe(
+            metrics_df,
+            use_container_width=True
+        )
+
+        # Best Model
+
+        if "overall_score" in metrics_df.columns:
+
+            best_model = metrics_df.loc[
+                metrics_df["overall_score"].idxmax()
+            ]
+
+            st.success(
+                f"""
+🏆 **Best Model:** {best_model['model']}
+
+⭐ Overall Score: {best_model['overall_score']:.2f}
+"""
+            )
 
         st.divider()
 
-    # Accuracy Chart
-    if chart_file.exists():
+    # Charts
 
-        st.subheader("Accuracy Comparison")
+    chart_files = [
+        ("Accuracy", "accuracy.png"),
+        ("Robustness", "robustness.png"),
+        ("Consistency", "consistency.png"),
+        ("Average Response Time", "response_time.png"),
+        ("Average Response Length", "response_length.png"),
+        ("Overall Score", "overall_score.png"),
+    ]
 
-        st.image(str(chart_file), use_container_width=True)
+    for title, filename in chart_files:
 
-        st.divider()
+        chart_path = charts_dir / filename
+
+        if chart_path.exists():
+
+            st.subheader(title)
+
+            st.image(
+                str(chart_path),
+                use_container_width=True
+            )
+
+            st.divider()
 
     # Downloads
+
     st.subheader("Downloads")
 
     if benchmark_file.exists():
+
         with open(benchmark_file, "rb") as f:
+
             st.download_button(
                 "📥 Download Benchmark Results",
                 f,
@@ -137,7 +206,9 @@ with tab3:
             )
 
     if metrics_file.exists():
+
         with open(metrics_file, "rb") as f:
+
             st.download_button(
                 "📥 Download Metrics",
                 f,
@@ -145,14 +216,33 @@ with tab3:
                 mime="text/csv"
             )
 
+
+# ABOUT
+
 with tab4:
 
     st.header("About")
 
     st.write("""
-    MSc Project
+### Prompt Robustness Benchmarking for Large Language Models
 
-    Prompt Robustness Benchmarking for Large Language Models
+**MSc Data Science Project**
 
-    University of Europe for Applied Sciences
-    """)
+University of Europe for Applied Sciences
+
+This project evaluates the robustness of multiple open-source
+Large Language Models under prompt perturbations using:
+
+- Accuracy
+- Robustness Score
+- Consistency Score
+- Response Time
+- Response Length
+- Overall Model Score
+
+Models evaluated:
+
+- Llama 3.2
+- Mistral
+- Gemma
+""")
