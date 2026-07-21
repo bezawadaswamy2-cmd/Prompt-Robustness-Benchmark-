@@ -81,9 +81,69 @@ with tab2:
             st.success("Benchmark completed successfully!")
 with tab3:
 
-    st.header("Results")
+    st.header("📊 Results")
 
-    st.info("Metrics and charts will appear here.")
+    import pandas as pd
+    from src.config import RESULTS_DIR
+
+    benchmark_file = RESULTS_DIR / "benchmark_results.csv"
+    metrics_file = RESULTS_DIR / "metrics.csv"
+    chart_file = RESULTS_DIR / "accuracy_chart.png"
+
+    # Benchmark Summary
+    if benchmark_file.exists():
+
+        benchmark_df = pd.read_csv(benchmark_file)
+
+        st.subheader("Benchmark Summary")
+
+        col1, col2, col3 = st.columns(3)
+
+        col1.metric("Models Tested", benchmark_df["model"].nunique())
+        col2.metric("Responses", len(benchmark_df))
+        col3.metric("Tasks", benchmark_df["task"].nunique())
+
+        st.divider()
+
+    # Metrics Table
+    if metrics_file.exists():
+
+        metrics_df = pd.read_csv(metrics_file)
+
+        st.subheader("Metrics")
+        st.dataframe(metrics_df, use_container_width=True)
+
+        st.divider()
+
+    # Accuracy Chart
+    if chart_file.exists():
+
+        st.subheader("Accuracy Comparison")
+
+        st.image(str(chart_file), use_container_width=True)
+
+        st.divider()
+
+    # Downloads
+    st.subheader("Downloads")
+
+    if benchmark_file.exists():
+        with open(benchmark_file, "rb") as f:
+            st.download_button(
+                "📥 Download Benchmark Results",
+                f,
+                file_name="benchmark_results.csv",
+                mime="text/csv"
+            )
+
+    if metrics_file.exists():
+        with open(metrics_file, "rb") as f:
+            st.download_button(
+                "📥 Download Metrics",
+                f,
+                file_name="metrics.csv",
+                mime="text/csv"
+            )
 
 with tab4:
 
