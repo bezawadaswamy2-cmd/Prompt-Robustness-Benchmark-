@@ -31,6 +31,8 @@ def calculate_metrics():
             task_df = model_df[model_df["task"] == task]
 
             correct = 0
+            response_lengths = []
+            response_times = []
 
             # Check every response
             for _, row in task_df.iterrows():
@@ -38,11 +40,22 @@ def calculate_metrics():
                 response = str(row["response"]).strip().lower()
                 ground_truth = str(row["ground_truth"]).strip().lower()
 
+                response_length = len(response.split())
+                response_lengths.append(response_length)
+
+                response_time = row["response_time"]
+                response_times.append(response_time)
+
                 # Simple contains-match evaluation
                 if ground_truth in response:
                     correct += 1
 
+            average_response_length = round(sum(response_lengths) / len(response_lengths), 2)
             total = len(task_df)
+
+            average_response_time = round(
+                sum(response_times) / len(response_times), 3
+)
 
             accuracy = (correct / total) * 100 if total > 0 else 0
 
@@ -51,7 +64,9 @@ def calculate_metrics():
                 "task": task,
                 "correct": correct,
                 "total": total,
-                "accuracy": round(accuracy, 2)
+                "accuracy": round(accuracy, 2),
+                "avg_response_length": average_response_length,
+                "avg_response_time": average_response_time
             })
 
     metrics_df = pd.DataFrame(results)

@@ -1,10 +1,14 @@
 import pandas as pd
 import ollama
+import time
 
 from src.config import PERTURBED_PROMPTS, RESULTS_DIR
 
 
 def query_model(model_name, prompt):
+
+    start_time = time.time()
+
     response = ollama.chat(
         model=model_name,
         messages=[
@@ -15,7 +19,13 @@ def query_model(model_name, prompt):
         ]
     )
 
-    return response["message"]["content"]
+    end_time = time.time()
+
+    response_text = response["message"]["content"]
+
+    response_time = round(end_time - start_time, 3)
+
+    return response_text, response_time
 
 
 def evaluate_model(model_name, limit=None):
